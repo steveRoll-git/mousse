@@ -2,6 +2,7 @@ mod lexer;
 mod token;
 mod position;
 mod syntax_error;
+mod tree;
 
 use position::Position as Position;
 use token::Token as Token;
